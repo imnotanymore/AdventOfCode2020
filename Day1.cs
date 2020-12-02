@@ -1,7 +1,8 @@
 using System;
-namespace Day1
+
+namespace AdventOfCode
 {
-    class Program
+    class Day1
     {
         static void Main(string[] args)
         {
