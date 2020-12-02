@@ -27,6 +27,7 @@ namespace AdventOfCode
                 1989, 1696, 1953, 1823, 1923, 1907, 1834, 1806, 1861, 1785,
                 297, 1968, 1764, 1932, 1937, 1826, 1732, 1962, 1916, 1756,
                 1975, 1775, 1922,773 };
+
             for (int i = 0; i < expense_report.Length; i++)
             {
                 for (int j = i + 1; j < expense_report.Length; j++)
