@@ -5,7 +5,7 @@ namespace Day1
     {
         static void Main(string[] args)
         {
-            int[] expensereport = new int[] { 1810, 1729, 1857, 1777, 1927,
+            int[] expense_report = new int[] { 1810, 1729, 1857, 1777, 1927,
                 1936, 1797, 1719, 1703, 1758, 1768, 2008, 1963, 1925, 1919,
                 1911, 1782, 2001, 1744, 1738, 1742, 1799, 1765, 1819, 1888, 127,
                 1880, 1984, 1697, 1760, 1680, 1951, 1745, 1817, 1704, 1736,
@@ -26,13 +26,13 @@ namespace Day1
                 1989, 1696, 1953, 1823, 1923, 1907, 1834, 1806, 1861, 1785,
                 297, 1968, 1764, 1932, 1937, 1826, 1732, 1962, 1916, 1756,
                 1975, 1775, 1922,773 };
-            for (int i = 0; i < expensereport.Length; i++)
+            for (int i = 0; i < expense_report.Length; i++)
             {
-                for (int j = i + 1; j < expensereport.Length; j++)
+                for (int j = i + 1; j < expense_report.Length; j++)
                 {
-                    if (expensereport[i] + (expensereport[j]) == 2020)
+                    if (expense_report[i] + (expense_report[j]) == 2020)
                     {
-                        int answer = expensereport[i] * expensereport[j];
+                        int answer = expense_report[i] * expense_report[j];
                         Console.WriteLine(answer);
                     }
                 }
